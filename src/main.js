@@ -4,4 +4,6 @@ import App from './App.vue'
 // tailwindcss 적용
 import '../main.css'
 
-createApp(App).mount('#app')
+// createApp(App).mount('#app')
+const app = createApp(App);
+app.mount('#app');
